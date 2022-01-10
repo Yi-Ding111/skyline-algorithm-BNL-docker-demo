@@ -1,4 +1,4 @@
-# Skyline algorhthm by Block Nested loop (docker demo)
+# Skyline algorithm by Block Nested loop (docker demo)
 
 This project is a skyline algorithm based on Block Nested loop from scratch. It is used to find NBA players who are in domination in different positions. 
 
