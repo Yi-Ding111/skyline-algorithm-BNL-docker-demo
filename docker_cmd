@@ -1,0 +1,24 @@
+#build image in current directory
+docker image build -t skyline:test .
+
+#list images
+docker image ls
+
+#run image to create container in terminal bash
+docker run -it e8e bash
+
+#go into directory
+cd cd skyline_algorithm/
+
+#run python file
+python3 skyline_algorithm.py
+
+exit
+
+#delete container and image
+docker container stop c1b
+
+docker container rm c1b
+
+docker image rm e8e
+
